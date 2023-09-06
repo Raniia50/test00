@@ -20,7 +20,7 @@ connection.connect((err) => {
   }
   console.log('connecting"mydb"');
 
-  const sqlQuery = "SELECT * from balanceSheet , income ";
+  const sqlQuery = "SELECT * from balanceSheet ";
 
   connection.query(sqlQuery, (error, results) => {
     if (error) {
